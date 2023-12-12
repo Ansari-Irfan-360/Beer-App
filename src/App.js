@@ -35,6 +35,7 @@ const App = () => {
     <div className="App">
       <h1>Beer App</h1>
       <input
+        className="search-input"
         type="text"
         placeholder="Search beers"
         value={searchTerm}
