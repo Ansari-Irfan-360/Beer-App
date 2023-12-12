@@ -4,6 +4,10 @@
   padding: 20px;
 }
 
+.search-input {
+  margin-bottom: 40px;
+}
+
 .beer-list {
   display: flex;
   flex-wrap: wrap;
