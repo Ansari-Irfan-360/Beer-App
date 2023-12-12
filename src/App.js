@@ -41,6 +41,7 @@ const App = () => {
         value={searchTerm}
         onChange={handleSearch}
       />
+      <hr />
       <div className="beer-list">
         {filteredBeers.map((beer) => (
           <BeerCard key={beer.id} beer={beer} />
