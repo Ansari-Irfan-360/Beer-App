@@ -23,6 +23,7 @@ const App = () => {
     fetchData();
   }, []);
 
+
   const handleSearch = (e) => {
     setSearchTerm(e.target.value);
   };
